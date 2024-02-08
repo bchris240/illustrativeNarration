@@ -24,6 +24,12 @@ const questions = [
     name: 'usage',
     message: 'Provide instructions on how to use your project:',
   },
+  // Add a question for the image path or URL
+  {
+    type: 'input',
+    name: 'image',
+    message: 'Provide the path or URL to an image if needed (e.g., ./images/project-image.jpg):',
+  },
   {
     type: 'input',
     name: 'contributing',
